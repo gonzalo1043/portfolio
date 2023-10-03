@@ -1,0 +1,22 @@
+/* .CardIndex{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.297);
+        margin-bottom: 10px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-top-color: white;
+        border-bottom-color: white;
+        width: 1000px;
+}
+
+.card{
+    width: max-content;
+}
+
+
+.CardText{
+    margin-right: 500px;
+} */

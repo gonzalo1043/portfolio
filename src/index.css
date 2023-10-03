@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  max-height: 100%;
+
+}
+
+#root{
+  min-height: 100%;
+  max-height: 100%;
+}
+
+body{
+  min-height: 100%;
+  max-height: 100%;
+  background-color:rgb(15, 15, 15) ;
+}
+
+html {
+  min-height: 100%;
+  background-color:rgb(15, 15, 15) ;
+}
+
+h1{
+  color: rgba(251, 213, 65, 1);
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 80px;
+  justify-self: baseline;
+  font-size: 90px;
+}
+
+h2{
+  color: white;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size: 60px;
+  justify-self: right;
+  font-size: 75px;
+
+}
+
+.navBar{
+    background-color: rgb(15, 15, 15);
+}
+
+.navText{
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.titlePrincipal{
+  display: grid;
+  grid-template-columns: auto auto 300px auto;
+  grid-template-rows: 130px auto auto 150px auto;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.iconArrowPrincipal{
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  padding-right: 40px;
+  padding-bottom: 5px;
+}
+
+.navBarCollapse{
+  display: flex;
+}
+
+.offCanvasColor{
+  background-color: rgb(15, 15, 15);
+}
+
+.projectsDiv{
+  margin-top: 100px;
+}
+.cardColor{
+  background-color: rgba(0, 0, 0, 0.297) ;
+  border-top-color: rgba(251, 213, 65, 1);
+  border-bottom-color: rgba(251, 213, 65, 1);
+  margin-bottom: 30px;
+  border-radius: 0px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.cardBody{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.projectsText{
+  display: grid;
+  grid-column:  1/2;
+  justify-items: baseline;
+  color: white;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.projectsYear{
+  display: grid;
+  grid-column: 2/3;
+  justify-items: end;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.projectSubtitle{
+  padding-left: 100px;
+  color: rgba(255, 255, 255, 0.641);
+}
+
+.projectSubtitle2{
+  padding-left: 120px;
+  color: rgba(255, 255, 255, 0.641);
+}
+
+.arrowsProjects{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  gap: .5rem;
+}
+
+
+.personalInformationDiv{
+  display: grid;
+  grid-template-columns: auto 200px 400px auto;
+  grid-template-rows: 100px auto 150px;
+  padding-left: 50px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+.photo{
+  width: 200px;
+  border-radius: 100px;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: center;
+}
+
+.personalInformationText{
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  color: rgba(255, 255, 255, 0.628);
+  font-size: 19px;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.personalInformationText2{
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin-left: 50px;
+  color: rgba(255, 255, 255, 0.877);
+  font-size: 17px;
+  text-align: justify;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.iconArrowPI{
+  display: grid;
+  grid-row: 3/4;
+  grid-column: 4/5;
+  justify-content: end;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.projectRMTitleDiv{
+display: grid;
+grid-template-columns: auto auto;
+padding-right: 60px;
+margin-top: 60px;
+}
+
+.projectTitleText{
+  grid-column: 1/2;
+  justify-self: baseline;
+  padding-left: 60px;
+}
+
+.projectRMTitle{
+  color: rgba(251, 213, 65, 1);
+  font-size: 50px;
+}
+
+.projectRMSubtitle{
+  color: white;
+  font-size: 50px;
+}
+
+
+.divImg{
+  display: flex;
+  flex-direction: column;  
+  justify-content: end;
+  align-items: center;
+}
+
+.imgProjectRM{
+  width: 1000px;
+  border-radius: 20px;
+  display: flex;
+
+}
+
+.cardProject{
+  background-color:rgb(15, 15, 15) ;
+  border: none;
+  padding: 30px;
+}
+
+.projectTitleChanges{
+  color: rgba(251, 213, 65, 1);
+  align-self: flex-end;
+  font-size: 55px;
+
+}
+
+.projectSubtitleChanges{
+  align-self: flex-end;
+  margin: 0;
+  font-size: 55px;
+  padding-left: 160px;
+}
+
+.proyectYearChanges{
+  grid-column: 2/3;
+  color: rgba(251, 213, 65, 1);
+  font-size: 24px;
+  align-self: flex-end;
+  justify-self: end;
+}
+
+.descriptionTitle{
+  grid-column: 1/2;
+  justify-self: baseline;
+  color: white;
+  font-size: 20px;
+  line-height: 15px;
+  text-align: justify;
+}
+
+.buttonGithubProject{
+  text-decoration: none;
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: white;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+
+}
+
+.descriptionTitleText{
+  color: rgba(255, 255, 255, 0.535);
+  margin-bottom: 0px;
+}
+
+.descriptionText{
+  grid-column: 2/3;
+  justify-self: flex-end;
+  width: 350px;
+  text-align: justify;
+  color: white;
+}
+
+.buttonVerProject{
+  grid-column: 2/3;
+  justify-self: center;
+  color: rgba(251, 213, 65, 1);
+  text-decoration: none;
+  padding: 3px 10px 5px 10px;
+  border-style: solid;
+  border-color: rgba(251, 213, 65, 1);;
+  border-radius: 20px;
+  border-width: 1px;
+  font-size: 20px;
+}
+
+.img2{
+  margin-top: 150px;
+}
+
+.textProject{
+  text-align: justify;
+  color: white;
+  font-size: 18px;
+}
+
+.videoProject{
+  margin-top: 100px;
+  }
+
+.nextProjectCard{
+  margin-top: 200px;
+}
+
+.mediaProject{
+  border-radius: 20px;
+}
