@@ -72,9 +72,6 @@ return (
                 <p>SIGUIENTE</p> 
                 <p className='projectSubtitle2'>PROYECTO</p> 
             </Card.Title>
-            <Card.Text className='projectsYear'>
-            2023
-            </Card.Text>
         </Card.Body>
         </Card>
 

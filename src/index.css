@@ -146,6 +146,12 @@ h2{
   color: rgba(255, 255, 255, 0.641);
 }
 
+.projectSubSubtitle{
+  color: rgba(255, 255, 255, 0.641);
+  font-size: 20px;
+}
+
+
 .arrowsProjects{
   display: flex;
   justify-content: end;
@@ -276,11 +282,11 @@ margin-top: 60px;
   font-size: 20px;
   line-height: 15px;
   text-align: justify;
+  gap: .9375rem;
 }
 
 .buttonGithubProject{
   text-decoration: none;
-  margin-top: 5px;
   border-style: solid;
   border-width: 1px;
   border-radius: 20px;
@@ -338,4 +344,9 @@ margin-top: 60px;
 
 .mediaProject{
   border-radius: 20px;
+}
+
+
+.subtitleProject2{
+  padding-left: 80px;
 }

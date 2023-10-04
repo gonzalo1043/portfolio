@@ -15,6 +15,7 @@ const Projects = () => {
             <Card style={{ width: '100%' }} className='cardColor' onClick={() => navigate('/Projects/RemediosVaroProject')}>
         <Card.Body style={{ width: '100%' }} className='cardBody'>
             <Card.Title className='projectsText'>
+                <p className='projectSubSubtitle'>(Maquetación web)</p>
                 <p>REMEDIOS</p>
                 <p className='projectSubtitle'>VARO</p>
             </Card.Title>
@@ -27,6 +28,7 @@ const Projects = () => {
         <Card style={{ width: '100%' }} className='cardColor' onClick={() => navigate('/Projects/TiendaDeVinilosProject')}>
         <Card.Body style={{ width: '100%' }} className='cardBody'>
             <Card.Title className='projectsText'>
+                <p className='projectSubSubtitle'>(React)</p>
                 <p>TIENDA DE VINILOS</p> 
                 <p className='projectSubtitle2'>E-COMMERCE</p> 
             </Card.Title>
