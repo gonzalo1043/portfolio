@@ -69,7 +69,10 @@ h2{
   color: white;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
+}
 
+.offCanvasTitle{
+  color: white;
 }
 
 .titlePrincipal{
@@ -99,6 +102,10 @@ h2{
 
 .projectsDiv{
   margin-top: 100px;
+}
+
+.ProjectsTitle{
+margin-bottom: 20px;
 }
 .cardColor{
   background-color: rgba(0, 0, 0, 0.297) ;

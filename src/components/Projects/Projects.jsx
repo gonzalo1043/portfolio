@@ -12,18 +12,12 @@ const Projects = () => {
     return (
         <>
         <div className='projectsDiv'>
-            <Card style={{ width: '100%' }} className='cardColor' onClick={() => navigate('/Projects/RemediosVaroProject')}>
-        <Card.Body style={{ width: '100%' }} className='cardBody'>
+        
+        <Card.Body className='ProjectsTitle'>
             <Card.Title className='projectsText'>
-                <p className='projectSubSubtitle'>(Maquetación web)</p>
-                <p>REMEDIOS</p>
-                <p className='projectSubtitle'>VARO</p>
+                <p>PROYECTOS</p>
             </Card.Title>
-            <Card.Text className='projectsYear'>
-            2023
-            </Card.Text>
         </Card.Body>
-        </Card>
 
         <Card style={{ width: '100%' }} className='cardColor' onClick={() => navigate('/Projects/TiendaDeVinilosProject')}>
         <Card.Body style={{ width: '100%' }} className='cardBody'>
@@ -31,6 +25,19 @@ const Projects = () => {
                 <p className='projectSubSubtitle'>(React)</p>
                 <p>TIENDA DE VINILOS</p> 
                 <p className='projectSubtitle2'>E-COMMERCE</p> 
+            </Card.Title>
+            <Card.Text className='projectsYear'>
+            2023
+            </Card.Text>
+        </Card.Body>
+        </Card>
+
+        <Card style={{ width: '100%' }} className='cardColor' onClick={() => navigate('/Projects/RemediosVaroProject')}>
+        <Card.Body style={{ width: '100%' }} className='cardBody'>
+            <Card.Title className='projectsText'>
+                <p className='projectSubSubtitle'>(Maquetación web)</p>
+                <p>REMEDIOS</p>
+                <p className='projectSubtitle'>VARO</p>
             </Card.Title>
             <Card.Text className='projectsYear'>
             2023

@@ -7,12 +7,13 @@ import img5 from './assets/VVVINYL5.png'
 import video from './videos/VVVINYLVideo1.webm'
 import video2 from './videos/VVVINYLVideo2.mp4'
 import video3 from './videos/VVVINYLVideo3.webm'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import ReactPlayer from 'react-player'
 
 
 const TiendaDeVinilosProject = () => {
 
+    const navigate = useNavigate()
     return (
         <>
         <Card className='cardProject' style={{ width: '100%' }}>
@@ -101,11 +102,11 @@ const TiendaDeVinilosProject = () => {
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '100%' }} className='cardColor nextProjectCard' onClick={() => navigate('/Projects/TiendaDeVinilosProject')}>
+        <Card style={{ width: '100%' }} className='cardColor nextProjectCard' onClick={() => navigate('/Projects/RemediosVaroProject')}>
         <Card.Body style={{ width: '100%' }} className='cardBody'>
             <Card.Title className='projectsText'>
-                <p>SIGUIENTE</p> 
-                <p className='projectSubtitle2'>PROYECTO</p> 
+                <p>PROYECTO</p> 
+                <p className='projectSubtitle2'>ANTERIOR</p> 
             </Card.Title>
         </Card.Body>
         </Card>

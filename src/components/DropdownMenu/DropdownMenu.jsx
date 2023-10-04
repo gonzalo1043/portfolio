@@ -31,22 +31,22 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
             <Offcanvas show={show} onHide={handleClose} className= 'offCanvasColor'>
             <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Gonzalo Ciresa</Offcanvas.Title>
+                <Offcanvas.Title className='offCanvasTitle'>Gonzalo Ciresa</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
                 <Nav.Link>
                             <NavLink to='/' className='navText'>
-                            Home
+                            Inicio
                             </NavLink>
                         </Nav.Link>
                         <Nav.Link>
                             <NavLink className='navText' to='/Projects'>
-                            Projects
+                            Proyectos
                             </NavLink>
                         </Nav.Link>
                         <Nav.Link>
                             <NavLink className='navText' to='/PersonalInformation'>
-                            About me
+                            Sobre mi
                             </NavLink>
                         </Nav.Link>
             </Offcanvas.Body>

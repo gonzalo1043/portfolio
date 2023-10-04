@@ -66,11 +66,11 @@ return (
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '100%' }} className='cardColor nextProjectCard' onClick={() => navigate('/Projects/TiendaDeVinilosProject')}>
+        <Card style={{ width: '100%' }} className='cardColor nextProjectCard' onClick={() => navigate('/Projects/')}>
         <Card.Body style={{ width: '100%' }} className='cardBody'>
             <Card.Title className='projectsText'>
-                <p>SIGUIENTE</p> 
-                <p className='projectSubtitle2'>PROYECTO</p> 
+                <p>VOLVER A LOS</p> 
+                <p className='projectSubtitle2'>PROYECTOS</p> 
             </Card.Title>
         </Card.Body>
         </Card>
